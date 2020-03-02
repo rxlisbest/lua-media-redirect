@@ -1,1 +1,1 @@
-# lua-media-proxy
+# lua-media-redirect

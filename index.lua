@@ -4,13 +4,13 @@ package.path = ngx.var.lua_dir .. "?.lua;;"
 local cjson = require "cjson"
 function e(message)
     local r = {}
-    r['code'] = 0 
+    r['code'] = 0
     r['message'] = message
     ngx.say(cjson.encode(r))
 end
 function s(message)
     local r = {}
-    r['code'] = 1 
+    r['code'] = 1
     r['message'] = message
     ngx.say(cjson.encode(r))
 end
